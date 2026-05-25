@@ -97,8 +97,8 @@ Mobile Responsive Dashboard
 
 👨‍💻 Author
 
-Shabaz Fakhar
-GitHub: shabazfakhar
+GitHub: https://github.com/shabazfakhar
+
 
 ⭐ Support
 
