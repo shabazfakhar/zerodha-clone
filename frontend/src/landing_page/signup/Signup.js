@@ -12,7 +12,7 @@ function Signup() {
     try {
 
       const response = await axios.post(
-        "http://localhost:3002/signup",
+        "https://zerodha-clone-525w.onrender.com/signup",
         {
           username,
           email,
@@ -22,7 +22,7 @@ function Signup() {
 
       alert(response.data.message);
 
-      window.location.href = "http://localhost:3000/login";
+      window.location.href = "https://zerodha-clone-1-e5qq.onrender.com/login";
 
     } catch (error) {
 

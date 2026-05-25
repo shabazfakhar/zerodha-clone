@@ -11,7 +11,7 @@ function Login() {
     try {
 
       const response = await axios.post(
-        "http://localhost:3002/login",
+        "https://zerodha-clone-525w.onrender.com/login",
         {
           email,
           password,
