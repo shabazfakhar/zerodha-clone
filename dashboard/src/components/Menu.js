@@ -22,7 +22,7 @@ const Menu = () => {
   localStorage.removeItem("username");
   localStorage.removeItem("email");
 
-  window.location.href = "http://localhost:3001/login";
+  window.location.href = "https://zerodha-frontend.onrender.com/login";
 
 };
 

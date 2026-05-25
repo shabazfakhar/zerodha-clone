@@ -34,7 +34,7 @@ function Login() {
      alert("Login successful");
 
      setTimeout(() => {
-     window.location.href = "http://localhost:3000";
+     window.location.href = "https://zerodha-dashboard.onrender.com";
      }, 1000);
     } catch (error) {
 
