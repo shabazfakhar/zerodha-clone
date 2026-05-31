@@ -289,7 +289,6 @@ app.post("/login", async (req, res) => {
 });
 
 
-
 app.post('/newOrder', async(req,res)=>{
    let newOrder = new OrdersModel({
     name: req.body.name,
@@ -298,10 +297,11 @@ app.post('/newOrder', async(req,res)=>{
     mode: req.body.mode,
    });
 
-   newOrder.save();
+   await newOrder.save();
 
    res.send("Order saved!");
- });
+});
+
 
 app.listen(PORT, ()=>{
     console.log("App started!");
